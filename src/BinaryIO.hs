@@ -1,5 +1,5 @@
-
-module BinaryIO(readBinaryFile) where
+module BinaryIO(readBinaryFile,
+                writeBinaryFile) where
 
 import Data.ByteString.Char8 as Ch
 import System.IO as IO
